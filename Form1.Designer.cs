@@ -36,12 +36,6 @@
 			this.ConvertedTextLabel = new System.Windows.Forms.Label();
 			this.btnEncrypt = new System.Windows.Forms.Button();
 			this.btnDecrypt = new System.Windows.Forms.Button();
-			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-			this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.instantConversionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.fileConversionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// KeyLabel
@@ -115,45 +109,6 @@
 			this.btnDecrypt.UseVisualStyleBackColor = true;
 			this.btnDecrypt.Click += new System.EventHandler(this.btnDecrypt_Click);
 			// 
-			// menuStrip1
-			// 
-			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
-			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(784, 24);
-			this.menuStrip1.TabIndex = 8;
-			this.menuStrip1.Text = "menuStrip1";
-			// 
-			// fileToolStripMenuItem
-			// 
-			this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.instantConversionToolStripMenuItem,
-            this.fileConversionToolStripMenuItem,
-            this.exitToolStripMenuItem});
-			this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-			this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-			this.fileToolStripMenuItem.Text = "File";
-			// 
-			// instantConversionToolStripMenuItem
-			// 
-			this.instantConversionToolStripMenuItem.Name = "instantConversionToolStripMenuItem";
-			this.instantConversionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-			this.instantConversionToolStripMenuItem.Text = "Instant Conversion";
-			// 
-			// fileConversionToolStripMenuItem
-			// 
-			this.fileConversionToolStripMenuItem.Name = "fileConversionToolStripMenuItem";
-			this.fileConversionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-			this.fileConversionToolStripMenuItem.Text = "File Conversion";
-			// 
-			// exitToolStripMenuItem
-			// 
-			this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-			this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-			this.exitToolStripMenuItem.Text = "Exit";
-			this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
-			// 
 			// MainScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,12 +122,8 @@
 			this.Controls.Add(this.txtPlainText);
 			this.Controls.Add(this.txtKey);
 			this.Controls.Add(this.KeyLabel);
-			this.Controls.Add(this.menuStrip1);
-			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MainScreen";
-			this.Text = "AlHares Data Locker";
-			this.menuStrip1.ResumeLayout(false);
-			this.menuStrip1.PerformLayout();
+			this.Text = "AlHares Data Locker V1.0.0";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -188,11 +139,6 @@
 		private System.Windows.Forms.Label ConvertedTextLabel;
 		private System.Windows.Forms.Button btnEncrypt;
 		private System.Windows.Forms.Button btnDecrypt;
-		private System.Windows.Forms.MenuStrip menuStrip1;
-		private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem instantConversionToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem fileConversionToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
 	}
 }
 
