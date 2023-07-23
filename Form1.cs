@@ -100,9 +100,6 @@ namespace AlHares_Data_Locker
 		}
 
 
-		private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
-		{
-			Close();
-		}
+
 	}
 }
